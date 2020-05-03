@@ -4,4 +4,10 @@
 
 3. แล้วทำการพิมพ์คำสั่ง npm install เมื่อทำการติดตั้งเสร็จแล้วให้ cd client แล้วทำการ npm install อีกหนึ่งครั้งเป็นอันเสร็จสิ้นการติดตั้งแล้ว
 
-4. ใช้คำสั่ง npm run dev ในการ run โปรแกรมขึ้นมา เมื่อกดแล้ว web browser จะเด้งขึ้นมาทันทีพร้อมกับเปิด localhost ให้เรียบร้อย แล้ว
+4. ทำการสร้างไฟล์ dev.js ขึ้นมา โดยเข้าไปที่ server แล้ว config แล้วทำการเพิ่มไฟล์ dev.js โดยใช้ code นี้
+
+module.exports = {
+    mongoURI:"mongodb+srv://benny:2004032339@cluster0-iscut.mongodb.net/test?retryWrites=true&w=majority"
+}
+
+5. ใช้คำสั่ง npm run dev ในการ run โปรแกรมขึ้นมา เมื่อกดแล้ว web browser จะเด้งขึ้นมาทันทีพร้อมกับเปิด localhost ให้เรียบร้อย แล้ว
