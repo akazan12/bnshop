@@ -5,7 +5,7 @@ import ImageSlider from '../../utils/ImageSlider';
 import CheckBox from './Sections/CheckBox';
 import RadioBox from './Sections/RadioBox';
 import { continents, price } from './Sections/Datas';
-import SearchFeature from './Sections/SearchFeature';
+
 
 const { Meta } = Card;
 
@@ -15,7 +15,7 @@ function LandingPage() {
     const [Skip, setSkip] = useState(0)
     const [Limit, setLimit] = useState(8)
     const [PostSize, setPostSize] = useState()
-    const [SearchTerms, setSearchTerms] = useState("")
+    
 
     const [Filters, setFilters] = useState({
         continents: [],
@@ -57,7 +57,7 @@ function LandingPage() {
             limit: Limit,
             loadMore: true,
             filters: Filters,
-            searchTerm: SearchTerms
+           
         }
         getProducts(variables)
         setSkip(skip)
@@ -125,20 +125,7 @@ function LandingPage() {
         setFilters(newFilters)
     }
 
-    const updateSearchTerms = (newSearchTerm) => {
-
-        const variables = {
-            skip: 0,
-            limit: Limit,
-            filters: Filters,
-            searchTerm: newSearchTerm
-        }
-
-        setSkip(0)
-        setSearchTerms(newSearchTerm)
-
-        getProducts(variables)
-    }
+    
 
 
     return (
@@ -166,14 +153,7 @@ function LandingPage() {
             </Row>
 
 
-            {/* Search  */}
-            <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '1rem auto' }}>
-
-                <SearchFeature
-                    refreshFunction={updateSearchTerms}
-                />
-
-            </div>
+            
 
 
             {Products.length === 0 ?

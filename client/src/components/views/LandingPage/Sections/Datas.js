@@ -37,19 +37,35 @@ const price = [
 const continents = [
     {
         "_id": 1,
-        "name": "Man"
+        "name": "Tshirt"
     },
     {
         "_id": 2,
-        "name": "Woman"
+        "name": "Hoodie"
     },
     {
         "_id": 3,
-        "name": "Boy"
+        "name": "Sleeve"
     },
     {
         "_id": 4,
-        "name": "Girl"
+        "name": "Suit"
+    },
+    {
+        "_id": 5,
+        "name": "Trouser"
+    },
+    {
+        "_id": 6,
+        "name": "Shorts"
+    },
+    {
+        "_id": 7,
+        "name": "Sandals"
+    },
+    {
+        "_id": 8,
+        "name": "Shoes"
     }
 ]
 

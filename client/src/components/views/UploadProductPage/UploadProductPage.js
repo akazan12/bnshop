@@ -7,10 +7,14 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-    { key: 1, value: "Man" },
-    { key: 2, value: "Woman" },
-    { key: 3, value: "Boy" },
-    { key: 4, value: "Girl" }
+    { key: 1, value: "Tshirt" },
+    { key: 2, value: "Hoodie" },
+    { key: 3, value: "Sleeve" },
+    { key: 4, value: "Suit" },
+    { key: 5, value: "Trouser" },
+    { key: 6, value: "Shorts" },
+    { key: 7, value: "Sandals" },
+    { key: 8, value: "Shoes" }
     
 ]
 

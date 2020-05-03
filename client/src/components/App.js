@@ -11,7 +11,6 @@ import UploadProductPage from './views/UploadProductPage/UploadProductPage'
 import DetailProductPage from './views/DetailProductPage/DetailProductPage';
 import CartPage from './views/CartPage/CartPage';
 import HistoryPage from './views/HistoryPage/HistoryPage';
-
 function App() {
   return (
     <Suspense fallback={(<div>Loading...</div>)}>
@@ -32,5 +31,4 @@ function App() {
     </Suspense>
   );
 }
-
 export default App;
