@@ -11,3 +11,45 @@ module.exports = {
 }
 
 5. ใช้คำสั่ง npm run dev ในการ run โปรแกรมขึ้นมา เมื่อกดแล้ว web browser จะเด้งขึ้นมาทันทีพร้อมกับเปิด localhost ให้เรียบร้อย แล้ว
+
+— — ร้านค้าออนไลน์ด้วย MERN stack — —
+
+จัดทำโดย
+
+นายเบนนี่ บริทรีโอ 1600900920
+
+เสนอ
+
+อาจารย์ทศพล บ้านคลองสี่
+
+วิชาการเขียนโปรแกรมเชิงวัตถุ
+
+สาขาวิชาวิศวกรรมคอมพิวเตอร์
+
+คณะวิศวกรรมศาสตร์
+
+มหาวิทยาลัยกรุงเทพ
+
+ภาคเรียนที่ 2 ปีการศึกษา 2562
+
+— — — — — — — — — — — — — — — — — — — — — — — — — —
+
+— — Clothing Shop with MERN stack — —
+
+SUBMITTED BY
+
+BENNY BITRIOL 1600900920
+
+PRESENT
+
+TODSAPON BANKLONGSI
+
+OBJECT ORIENTED PROGRAMMING
+
+DEPARTMENT OF COMPUTER ENGINEERING
+
+SCHOOL OF ENGINEERING
+
+BANGKOK UNIVERSITY
+
+SEMESTER 2 YEAR 2019
